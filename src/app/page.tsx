@@ -154,18 +154,6 @@ function App() {
             })}
           </div>
           <div className="w-2/3 mx-auto grid grid-cols-2 gap-6 ">
-            <p className="ml-auto my-auto text-right w-2/3 font-extrabold text-xl text-[#FDF7F4]">
-              Scan the code and win prizes
-            </p>
-            <div>
-              <QRCode
-                className="mx-auto w-36 h-36 p-1 bg-[#FDF7F4]"
-                value={`https://wa.me/${process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER}?text=Hit%20send%20to%20start!`}
-              />
-              <p className="text-center text-s text-gray-500">
-                {process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER}
-              </p>
-            </div>
           </div>
         </div>
       </div>
