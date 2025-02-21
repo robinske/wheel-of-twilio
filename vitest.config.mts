@@ -10,7 +10,7 @@ export default defineConfig({
     environment: "jsdom",
     env: {
       DISABLE_LEAD_COLLECTION: "false",
-      ...config({ path: ".env.local" }).parsed,
+      ...config({ path: ".env" }).parsed,
     },
   },
 });
