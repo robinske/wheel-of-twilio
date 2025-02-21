@@ -23,6 +23,8 @@
     "alreadyPlayedPrizeClaimed": "Enjoy your prize. Feel free to visit the Twilio booth to chat with us about our Customer Engagement Platform.",
     "catchAllError": "Sorry, an error occurred. Please try again later.",
     "roundFull": "Sorry, the round is full. Please wait for the next round.",
-    "userRemoved": "Your phone number has been removed from the participant list. If you would like to participate again, please send a message."
+    "userRemoved": "Your phone number has been removed from the participant list. If you would like to participate again, please send a message.",
+    "betTemplateSID": "HX4849ff8d36b6884b63d1f06392472d3c",
+    "invalidBetTemplateSID": "HX490be939e482eb78611cf1af6cfb966b"
   }
 }
