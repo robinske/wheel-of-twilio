@@ -9,12 +9,7 @@ export default defineConfig({
     exclude: [...configDefaults.exclude, "*/e2e/*"],
     environment: "jsdom",
     env: {
-<<<<<<< HEAD
       ...config({ path: ".env.local" }).parsed,
-=======
-      DISABLE_LEAD_COLLECTION: "false",
-      ...config({ path: ".env" }).parsed,
->>>>>>> 76b3c48 (New bets)
     },
   },
 });
