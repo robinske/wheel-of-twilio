@@ -158,7 +158,10 @@ function App() {
               Scan the code and win prizes
             </p>
             <div>
-              <img src="/images/Twilio-EC-Main.svg" alt="QR Code" className="w-full h-full" />
+              <QRCode
+                className="mx-auto w-24 h-24 p-1 bg-[#FDF7F4]"
+                value={`${process.env.QR_CODE_URL}`}
+              />
             </div>
           </div>
         </div>
