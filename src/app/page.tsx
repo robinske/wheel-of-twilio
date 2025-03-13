@@ -156,16 +156,9 @@ function App() {
           <div className="w-2/3 mx-auto grid grid-cols-3 gap-6 grdi ">
             <p className="ml-auto my-auto text-right col-span-2 font-extrabold text-xl text-[#FDF7F4]">
               Scan the code and win prizes
-              <a href="sms:+18554266330?body=Hit%20send%20to%20start!">Click to send SMS</a>
             </p>
             <div>
-              <QRCode
-                className="mx-auto w-24 h-24 p-1 bg-[#FDF7F4]"
-                value={`https://wa.me/${process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER}?text=Hit%20send%20to%20start!`}
-              />
-              <p className="text-center text-s text-gray-500">
-                {process.env.NEXT_PUBLIC_TWILIO_PHONE_NUMBER}
-              </p>
+              <img src="/images/Twilio-EC-Main.svg" alt="QR Code" className="w-full h-full" />
             </div>
           </div>
         </div>
